@@ -1,0 +1,106 @@
+
+.Container{
+    display: flex;
+    flex-direction:column;
+}
+.Container>div{
+  
+    text-align: center;
+    line-height: 1000px;
+    font-size: 30px;
+  
+}
+
+.flex-container1{
+   display:flex;
+   flex-direction: row;
+
+}
+.flex-container1>div{
+ 
+  text-align: center;
+  line-height: 1200px;
+  font-size: 30px;
+  align-items: flex-end;
+
+}
+.item1{
+    background-color: #bdbcbc;
+    width: 200%;
+}
+.item2{
+    width: 1500%;
+    background-color: #ffffff
+}
+.flex-container2{
+
+    display:flex;
+    flex-direction: row;
+ 
+}
+.flex-container2>div{
+    margin: 1px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+  
+  }
+  .item3{
+    background-color: #bdbcbc;
+    width: 200%;
+    
+}
+.item4{
+    width: 1500%;
+    background-color: #ffffff
+}
+.stripe{
+     height:20px;
+    display:flex;
+    flex-direction: row;
+ 
+}
+.stripe>div{
+   
+    text-align: center;
+    font-size: 30px;
+  
+  }
+  .red-stripe{
+    background-color: #ffffff;
+    width: 200%;
+}
+.white-stripe{
+    width: 1500%;
+    background-color: #e70a0a
+    
+}
+.Footer{
+    background-color: #bdbcbc;
+    height:110px;
+}
+ img.Home-png{
+max-height: 100px;
+
+
+}
+
+
+.button-container{
+    background-color:#0000;
+    height:-20px;
+    display:flex;
+    flex-direction: column;
+}
+img#button1.Home-png{
+    position: relative;
+    bottom:500px;
+}
+img#button2.Home-png{
+    position: relative;
+    bottom:1550px;
+}
+img#button3.Home-png{
+    position: relative;
+    bottom:2600px;
+}
