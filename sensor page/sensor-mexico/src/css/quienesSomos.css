@@ -6,7 +6,7 @@
 .Container>div{
   
     text-align: center;
-    line-height: 1000px;
+    line-height: 50px;
     font-size: 30px;
   
 }
@@ -19,9 +19,8 @@
 .flex-container1>div{
  
   text-align: center;
-  line-height: 1200px;
   font-size: 30px;
-  align-items: flex-end;
+
 
 }
 .item1{
@@ -55,7 +54,7 @@
     background-color: #ffffff
 }
 .stripe{
-     height:20px;
+     height:15px;
     display:flex;
     flex-direction: row;
  
@@ -80,7 +79,7 @@
     height:110px;
 }
  img.Home-png{
-max-height: 100px;
+max-height: 125px;
 
 
 }
@@ -88,19 +87,279 @@ max-height: 100px;
 
 .button-container{
     background-color:#0000;
-    height:-20px;
+    height:-10px;
     display:flex;
     flex-direction: column;
+   
+}
+.btn-hover:hover{
+transform: scale(1.2);
+opacity:50%;
 }
 img#button1.Home-png{
     position: relative;
-    bottom:500px;
+    top: 50px;
 }
 img#button2.Home-png{
     position: relative;
-    bottom:1550px;
+    top: 100px;
 }
 img#button3.Home-png{
     position: relative;
-    bottom:2600px;
+   top:150px;
+}
+img#button4.Home-png{
+    position: relative;
+     top:200px;
+}
+h1{
+position: relative;
+right:250px;
+color:red;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+p{
+    position: relative;
+    max-height: 300px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    right:25px;
+}
+#p1{
+    position: relative;
+   
+}
+#p2{
+    position: relative;
+    bottom:50px;
+    right:50px;
+
+}
+#p3{
+    position: relative;
+    bottom:60px;
+    right:15px;
+
+}
+#p4{
+    position: relative;
+    bottom:105px;
+    right:128px;
+}
+#p5{
+    position: relative;
+    bottom:100px;
+    right:70px;
+}
+#p6{
+    position: relative;
+    bottom:150px;
+    right:358px;
+}
+div#mision-box{
+    position: relative;
+    background-color: yellow;
+    height:260px;
+    width: 1100px;
+    left:60px;
+   bottom: 150px;
+}
+#mision-h2{
+    position: relative;
+    right:420px;
+    color:white;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:10px;
+
+}
+#mision-p1{
+    position: relative;
+    font-size: 40px;
+    left: 10px;
+   
+    color:white;
+}
+#mision-p2{
+    position: relative;
+    right:20px;
+    bottom:40px;
+    font-size: 40px;
+    color:white;
+
+}
+
+div#vision-box{
+    position: relative;
+    background-color: red;
+    height:260px;
+    width: 1100px;
+    left:60px;
+ bottom:100px;
+
+}
+#vision-h2{
+    position: relative;
+    right:420px;
+    color:white;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:10px;
+
+}
+#vision-p1{
+    position: relative;
+    font-size: 40px;
+    left: 10px;
+    color:white;
+}
+#vision-p2{
+    position: relative;
+    right:40px;
+    font-size: 40px;
+    color:white;
+    bottom:40px;
+}
+#valores-h2{
+
+position: relative;
+bottom:100px;
+
+
+}
+#valores-box1{
+    position: relative;
+    border-style: solid;
+    height: 200px;
+    width: 500px;
+    left: 40px;
+    bottom:100px;
+
+}
+#valores-box2{
+    position: relative;
+    border-style: solid;
+    height: 200px;
+    width: 500px;
+    left: 625px;
+    bottom:305px;
+
+}
+#valores-box3{
+    position: relative;
+    border-style: solid;
+    height: 200px;
+    width: 500px;
+    left:40px;
+    bottom:200px;
+
+}
+#valores-box4{
+    position: relative;
+    border-style: solid;
+    height: 200px;
+    width: 500px;
+    left: 625px;
+    bottom:405px;
+    
+   
+}
+#honestidad-text{
+    position: relative;
+    right:100px;
+    bottom:40px;
+}
+#honestidad-p1{
+    position: relative;
+    bottom:70px;
+
+}
+#honestidad-p2{
+    position: relative;
+    bottom:115px;
+  
+    
+    
+}
+#responsabilidad-text{
+    position: relative;
+    bottom:40px;
+    right: 40px;
+}
+#responsabilidad-p1{
+    position: relative;
+    bottom:70px;
+ 
+}
+#responsabilidad-p2{
+    position: relative;
+    bottom:115px;
+    right: 35px;
+}
+#responsabilidad-p3{
+    position: relative;
+    bottom:160px;
+    right:155px;
+}
+#respeto-text{
+    position: relative;
+    bottom:40px;
+    right:100px;
+}
+#respeto-p1{
+    position: relative;
+    bottom:80px;
+    right:40px;
+}
+#respeto-p2{
+    position: relative;
+    bottom:125px;
+    right:28px;
+    
+}
+#respeto-p3{
+    position: relative;
+    bottom:170px;
+    right:165px;
+    
+}
+#confidencialidad-text{
+    position: relative;
+     bottom:30px;
+     right:30px;
+}
+#confidencialidad-p1{
+    position: relative;
+    bottom:75px;
+    right:70px;
+}
+#confidencialidad-p2{
+    position: relative;
+   bottom:120px;
+    right:150px;
+}
+div.quienes-container{
+    position: relative;
+    right:50px;
+}
+.honestidad-container{
+    position: relative;
+    top:50px;
+}
+.responsabilidad-container{
+    position: relative;
+    top:50px;
+}
+.respeto-container{
+    position: relative;
+    top:50px;
+}
+.confidencialidad-container{
+    position: relative;
+    top:50px;
+}
+#sensor-footer{
+    position: relative;
+    text-align: center;
+    color: yellow;
+    margin: 0%;
 }

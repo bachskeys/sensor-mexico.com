@@ -1,0 +1,17 @@
+.car-container{
+
+    min-height: 1000px;
+}
+.logo{
+   position: relative;
+    max-height: 100px;
+    max-width: 400px;
+    left:400px;
+}
+/* .uas{
+    position: relative;
+    min-height:500px;
+    min-width: 1200px;
+    
+}
+ */
